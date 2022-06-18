@@ -1,5 +1,3 @@
-# PART-1
-
 from tkinter import *
 from tkcalendar import DateEntry
 
@@ -41,8 +39,6 @@ hatirlatma_tarih_secici.pack(padx=10, pady=10, side=RIGHT)
 hatirlatma_tarihi_etiket = Label(frame_ust, bg="#add8e6", text="Hatırlatma Tarihi:", font="Verdana 12")
 hatirlatma_tarihi_etiket.pack(padx=10, pady=10, side=RIGHT)
 
-# PART-2
-
 Label(frame_alt_sol, bg="#add8e6", text="Hatırlatma Yöntemi:", font="Verdana 10").pack(padx=10, pady=10, anchor=NW)
 
 var = IntVar()
@@ -64,7 +60,6 @@ var3 = IntVar()
 C3 = Checkbutton(frame_alt_sol, text= "Aynı gün", variable=var3, onvalue=1,offvalue=0,bg="#add8e6", font="Verdana 7")
 C3.pack(padx=25, pady=3, anchor=NW)
 
-# PART-3
 from tkinter import messagebox
 
 def gonder():
@@ -94,6 +89,8 @@ def gonder():
     finally:
         master.destroy()
 
+# Bu kısımda eğer mesaj kısmı boş ise başka bir uyarı ekranı da çıkartılabilir. Bunu da ekleyeceğim.
+        
 Label(frame_alt_sag,bg="#add8e6", text="Hatırlatma Mesajı:", font="Verdana 10" ).pack(padx=10, pady=10, anchor=NW)
 
 text_alani = Text(frame_alt_sag, height=9, width=45)
