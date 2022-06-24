@@ -103,5 +103,4 @@ text_alani.insert(END, karsilama_metni,"style")
 gonder_butonu = Button(frame_alt_sag, text="Gönder Bakalım!", command=gonder)
 gonder_butonu.pack(pady=10, anchor=S)
 
-
 master.mainloop()
