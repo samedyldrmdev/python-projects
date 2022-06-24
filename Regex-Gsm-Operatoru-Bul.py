@@ -1,3 +1,4 @@
+# Regex Module'u kullanarak basit bir Gsm Operatoru Bulma Fonksiyonu
 # GSM OPERATORLERİ
 # 54... : Vodafone
 # 501,505,506 : AVEA
