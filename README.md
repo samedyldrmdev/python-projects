@@ -1,1 +1,1 @@
-Bu dosya Python ile kodladığım bazı projeleri içermektedir.
+This file contains some projects that I coded with Python.
