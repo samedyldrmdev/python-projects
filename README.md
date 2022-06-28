@@ -4,7 +4,7 @@ This file contains some projects that I coded with Python.
 
 1 - [Number Guess Game](https://github.com/samettyldrm/myprojects/blob/main/number-guess-game.py)
 
-2 - [Regex Find GSM Operator](https://github.com/samettyldrm/myprojects/blob/main/regex-find-gsm-operator.py)
+2 - [Find GSM Operator with REGEX](https://github.com/samettyldrm/myprojects/blob/main/regex-find-gsm-operator.py)
 
 3 - [Reminder Interface with Tkinter](https://github.com/samettyldrm/myprojects/blob/main/tkinter-reminder-interface.py)
 
