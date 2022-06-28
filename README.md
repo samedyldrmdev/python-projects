@@ -8,4 +8,9 @@ This file contains some projects that I coded with Python.
 
 3 - [Tkinter ile Hatırlayıcı Arayüz](https://github.com/samettyldrm/myprojects/blob/main/tkinter-hatirlatici-arayuz.py)
 
-* [Machine Learning](https://github.com/samettyldrm/myprojects/tree/main/machine-learning)
+
+### Machine Learning
+
+[Machine Learning](https://github.com/samettyldrm/myprojects/tree/main/machine-learning)
+
+_It includes data preprocessing and the Iris data type._
