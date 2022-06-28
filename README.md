@@ -7,3 +7,5 @@ This file contains some projects that I coded with Python.
 2 - [Regex Gsm Operatoru Bulma](https://github.com/samettyldrm/myprojects/blob/main/regex-gsm-operatoru-bul.py)
 
 3 - [Tkinter ile Hatırlayıcı Arayüz](https://github.com/samettyldrm/myprojects/blob/main/tkinter-hatirlatici-arayuz.py)
+
+* [Machine Learning](https://github.com/samettyldrm/myprojects/tree/main/machine-learning)
