@@ -11,6 +11,4 @@ This file contains some projects that I coded with Python.
 
 ### Machine Learning
 
-[Machine Learning](https://github.com/samettyldrm/myprojects/tree/main/machine-learning)
-
-_It includes data preprocessing and the Iris data type._
+[Machine Learning](https://github.com/samettyldrm/myprojects/tree/main/machine-learning) _It includes data preprocessing and the Iris data type._
