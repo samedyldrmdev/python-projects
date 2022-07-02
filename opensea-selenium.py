@@ -34,17 +34,16 @@ def Browser():
             print(twitter)
             if twitter not in twitter_accounts:
                 twitter_accounts.append(twitter)
-                with open("sosyalmedyahesaplari.txt", "a+") as dosya:
+                with open("twitterhesaplari.txt", "a+") as dosya:
                     dosya_icerigi = dosya.readlines()
                     for t in twitter_accounts:
                         if t not in dosya_icerigi:
                             dosya.write(str(t)+"\n")
         if instagram != []:
             print(instagram)
-            instagram_accounts.append(instagram)
             if instagram not in instagram_accounts:
                 instagram_accounts.append(instagram)
-                with open("sosyalmedyahesaplari.txt", "a+") as dosya:
+                with open("instagramhesaplari.txt", "a+") as dosya:
                     dosya_icerigi = dosya.readlines()
                     for i in instagram_accounts:
                         if i not in dosya_icerigi:
@@ -56,4 +55,4 @@ def Browser():
 
 while True:
     Browser()
-    # sleep(5)
+    sleep(13)
