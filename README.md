@@ -14,6 +14,9 @@ This file contains some projects that I coded with Python.
 
 5 - [Voice Assistant](https://github.com/samettyldrm/python-projects/tree/main/voice-assistant) - _Voice assistant is a project that gives appropriate answers with the commands it receives._
 
-6 - [Request Module - Get](https://github.com/samettyldrm/python-projects/blob/main/request-module/requests-module-get.py) - _UK crime data with the get method of the request module._
+6 - Request Module
+
+- [Get Method](https://github.com/samettyldrm/python-projects/blob/main/request-module/requests-module-get.py) - _UK crime data with the get method of the request module._
+- [Post Method](https://github.com/samettyldrm/python-projects/blob/main/request-module/requests-module-get.py) - _Messi and Ronaldo graphical comparison with the post method of the request module._
 
 7 - [Opensea - Selenium](https://github.com/samettyldrm/python-projects/blob/main/opensea-selenium.py) - _My project where I pull data from Opensea Activity page using libraries such as Selenium and BeautifulSoup._
