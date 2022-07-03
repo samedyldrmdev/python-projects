@@ -16,3 +16,4 @@ This file contains some projects that I coded with Python.
 
 6 - [Request Module - Get](https://github.com/samettyldrm/python-projects/blob/main/request-module/requests-module-get.py) - _UK crime data with the get method of the request module._
 
+7 - [Opensea - Selenium](https://github.com/samettyldrm/python-projects/blob/main/opensea-selenium.py) - _My project where I pull data from Opensea Activity page using libraries such as Selenium and BeautifulSoup._
