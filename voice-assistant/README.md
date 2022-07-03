@@ -1,14 +1,15 @@
-This file contains some projects that I coded with Python.
+## Sesli Asistan Projesi (Voice Assistant)
 
-### Contents
+Sesli asistan, aldığı komutlar ile uygun cevapları veren bir projedir.
 
-1 - [Number Guess Game](https://github.com/samettyldrm/myprojects/blob/main/number-guess-game.py)
+Bu sesli asistanda kullandığım bazı kütüphaneler ve module'ler:
 
-2 - [Find GSM Operator with REGEX](https://github.com/samettyldrm/myprojects/blob/main/regex-find-gsm-operator.py)
+* BeautifulSoup, request ile opensea ve ntvhava sitelerinden veri kazıma işlemleri.
+* Speech_recognition ile mikrofondan dinleme işlemi.
+* Time module'ü ile zaman bilgisi.
+* Webbrowser ile tarayıcı kullanımı.
+* ```gTTS``` ile Text to Speech işlemi.
+* Random ile rastgele seçim işlemleri.
 
-3 - [Reminder Interface with Tkinter](https://github.com/samettyldrm/myprojects/blob/main/tkinter-reminder-interface.py)
-
-
-### Machine Learning
-
-[Machine Learning](https://github.com/samettyldrm/myprojects/tree/main/machine-learning) - _It includes data preprocessing and the Iris data type._
+_Bu başlangıç projemde çeşitli komutlar, module'ler ve kütüphaneler kullanarak pratik yapma imkanı buldum.
+Kodlarda düzenlemeler, eklemeler veya kısaltmalar yaparak daha kullanışlı hale getirilebilir._
