@@ -9,7 +9,7 @@ Bu sesli asistanda kullandığım bazı kütüphaneler ve module'ler:
 * Time module'ü ile zaman bilgisi.
 * Webbrowser ile tarayıcı kullanımı.
 * ```gTTS``` ile Text to Speech işlemi.
-* Random ile rastgele seçim işlemleri.
+* Random module'ü ile rastgele seçim işlemleri.
 
 _Bu başlangıç projemde çeşitli komutlar, module'ler ve kütüphaneler kullanarak pratik yapma imkanı buldum.
 Kodlarda düzenlemeler, eklemeler veya kısaltmalar yaparak daha kullanışlı hale getirilebilir._
