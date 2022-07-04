@@ -12,6 +12,7 @@ from time import sleep
 import requests
 from bs4 import BeautifulSoup
 import re
+from selenium import webdriver
 
 locale.setlocale(locale.LC_ALL, '')
 r = sr.Recognizer()
@@ -114,16 +115,15 @@ def response(voice):
     if "twitter" in voice:
         webbrowser.get().open("https://www.twitter.com/wearemetahuman")
         speak("Açtım bile patron!")
-    if "görüşürüz" in voice:
-        speak("Görüşürüz patron! Allah'a emanet ol.")
-        exit()
-    if "uyku" in voice:
-        speak("Hadi biraz dinlen patron!")
-        exit()
     if "uyu " in voice:
         speak("Tamam bi' 15 saniye kestireceğim!")
         sleep(15)
-
+    if "uyku" in voice:
+        speak("Bu kadar çalışma sen de be!")
+        exit()
+    if "görüşürüz" in voice or "bir şey yok" in voice:
+        speak("Görüşürüz patron! Allah'a emanet ol.")
+        exit()
 
 # Text to Speech
 def speak(string):
