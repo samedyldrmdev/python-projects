@@ -1,3 +1,6 @@
+# Bu programda Tkinter ve Sqlite3 kütüphaneleri ile yapılacak listesi kodladık.
+# SQL ile arayüzden aldığımız verileri database'e gönderiyoruz.
+
 # Tkinter ve SQL ile To Do List
 
 import tkinter as tk
