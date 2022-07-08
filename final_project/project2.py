@@ -9,10 +9,12 @@ Eğer listenin içindeki elemanlar da liste içeriyorsa onların elemanlarını 
 input: [[1, 2], [3, 4], [5, 6, 7]]
 output: [[[7, 6, 5], [4, 3], [2, 1]]'''
 
-# liste = [[1, 2], [3, 4], [5, 6, 7]]
-# ters = [list(reversed(i)) for i in liste]
+liste = [[1, 2], [3, 4], [5, 6, 7]]
+ters = [list(reversed(i)) for i in liste]
+print([*reversed(ters)])
+
+# biraz daha karmaşık halini yapmak istersek
+# liste = [[1, 2, 3], [7, 8, 9, [6, 5, 3]], [11, 12, 13]]
+# ters = [[*reversed(i)] for i in liste]
 # print([*reversed(ters)])
 
-liste = [[1, 2, 3], [7, 8, 9, [6, 5, 3]], [11, 12, 13]]
-ters = [[*reversed(i)] for i in liste]
-print([*reversed(ters)])
