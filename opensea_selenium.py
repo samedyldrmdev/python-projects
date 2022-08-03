@@ -59,6 +59,32 @@ def Browser():
 
     return kullanici()
 
+#delete duplicate accounts
+def delete():
+    with open("twitterhesaplari.txt", "r+") as dosya:
+        list1 = dosya.readlines()
+        list2 = list(set(list1))
+        for i in list2:
+            print(i)
+            with open("twitter2.txt", "a+") as dosyaiki:
+                if i not in dosyaiki.readlines():
+                    dosyaiki.write(i)
+# delete()
+
+# timer
+def timer(f):
+    start = time.time()
+    f()
+    finish = time.time()
+    print("İşlem süresi: {}".format(finish-start))
+
+@timer
+def twitter_hesaplarini_ac():
+    with open("twitter2.txt", "r") as dosya:
+        for i in dosya.readlines():
+            webbrowser.get().open(i)
+
+# loop
 while True:
     try:
         Browser()
