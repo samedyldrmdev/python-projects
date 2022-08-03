@@ -4,8 +4,6 @@
 # I have developed a project that saves social media accounts in .txt file by coding with Python. 
 # Made my job a lot easier. The fact that the program continues to run as I write these lines excites me for my software future!
 
-
-
 from asyncio import selector_events
 from selenium import webdriver
 from time import sleep
