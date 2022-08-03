@@ -60,5 +60,16 @@ def Browser():
     return kullanici()
 
 while True:
-    Browser()
-    sleep(13)
+    try:
+        Browser()
+        sleep(10)
+    except Exception as e:
+        print(e)
+        browser = webdriver.Chrome()
+        browser.maximize_window()
+        url = "https://opensea.io/activity?search[eventTypes][0]=AUCTION_SUCCESSFUL&search[chains][0]=MATIC&search[chains][1]=ETHEREUM"
+        browser.get(url)
+        twitter_accounts = []
+        instagram_accounts = []
+    finally:
+        pass
