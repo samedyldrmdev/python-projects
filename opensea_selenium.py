@@ -4,8 +4,6 @@
 # I have developed a project that saves social media accounts in .txt file by coding with Python. 
 # Made my job a lot easier. The fact that the program continues to run as I write these lines excites me for my software future!
 
-
-
 from asyncio import selector_events
 from selenium import webdriver
 from time import sleep
@@ -61,6 +59,43 @@ def Browser():
 
     return kullanici()
 
+#delete duplicate accounts
+def delete():
+    with open("twitterhesaplari.txt", "r+") as dosya:
+        list1 = dosya.readlines()
+        list2 = list(set(list1))
+        for i in list2:
+            print(i)
+            with open("twitter2.txt", "a+") as dosyaiki:
+                if i not in dosyaiki.readlines():
+                    dosyaiki.write(i)
+# delete()
+
+# timer
+def timer(f):
+    start = time.time()
+    f()
+    finish = time.time()
+    print("İşlem süresi: {}".format(finish-start))
+
+@timer
+def twitter_hesaplarini_ac():
+    with open("twitter2.txt", "r") as dosya:
+        for i in dosya.readlines():
+            webbrowser.get().open(i)
+
+# loop
 while True:
-    Browser()
-    sleep(13)
+    try:
+        Browser()
+        sleep(10)
+    except Exception as e:
+        print(e)
+        browser = webdriver.Chrome()
+        browser.maximize_window()
+        url = "https://opensea.io/activity?search[eventTypes][0]=AUCTION_SUCCESSFUL&search[chains][0]=MATIC&search[chains][1]=ETHEREUM"
+        browser.get(url)
+        twitter_accounts = []
+        instagram_accounts = []
+    finally:
+        pass
